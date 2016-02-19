@@ -5,6 +5,7 @@
         margin-top: 3px;
     margin-bottom: 1px;
     color: #aa0000;
+    background: url('randomImage.jpg') no-repeat center center;
 }
 .neighborhood-guides {
 	background-color: gray;
