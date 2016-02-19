@@ -1,5 +1,7 @@
-$(document).ready(function(){
-	$('.neighborhood-guides').click(function(){
-		$(this).fadeIn(0,0);
-	});
+$(document).ready(function() {
+    $('#button').click(function() {
+        $('div').each(function() {
+            $(this).css('background',randomColor());
+        });
+    });
 });
