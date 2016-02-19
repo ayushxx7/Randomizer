@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('div').click(function(){
-		$(this).explode();
+	$('.neighborhood-guides').click(function(){
+		$(this).fadeIn(0,0);
 	});
 });
