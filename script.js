@@ -1,5 +1,7 @@
-$(document).ready(function(){
-	$('div').click(function(){
-		$(this).explode();
-	});
+$(document).ready(function() {
+    $('#button').click(function() {
+        $('div').each(function() {
+            $(this).css('background',randomColor());
+        });
+    });
 });
