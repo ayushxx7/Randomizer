@@ -6,7 +6,7 @@
         padding-top: 5em;
     margin-bottom: 1px;
     color: #aa0000;
-    background: url('images/randomImage.jpg') no-repeat center center;
+  
 }
 .neighborhood-guides {
 	background-color: orange;
@@ -37,5 +37,25 @@ color: #ffffff;
 } */
 
 img:hover {
-	color: green;
+	height: 200px;
+	width: 300px;
+	
+}
+
+
+.thumbnail {
+	background-color: orange;
+	border-color: orange;
+
+ position: relative;
+  overflow: hidden;
+  padding-bottom: 70%;}
+
+.thumbnail img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
