@@ -14,12 +14,12 @@ if (mysqli_connect_errno($conn))
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 mysqli_select_db($conn,'random') or die ("no database"); 
-$query=mysqli_query($conn,"SELECT url FROM ufc
+$query=mysqli_query($conn,"SELECT memes FROM ufc
 ORDER BY RAND()
 LIMIT 1");
  
 if ($result = mysqli_fetch_array($query))
 {
-echo '<a href="javascript: void(0)" onclick="window.open(' . '\'' . $result['url'] . '\'' . ');">YYAAY</a>';
+echo '<a href="javascript: void(0)" onclick="window.open(' . '\'' . $result['memes'] . '\'' . ');">YYAAY</a>';
 }
 ?>
