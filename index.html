@@ -1,141 +1,381 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Randomizer (preview build)</title>
+<head>
+	<meta charset="UTF-8">
+	<title>Randomizer</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="description" content="Random things for Random Beings!">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-    <script src="script2.js"></script>
-    
-    <nav class="navbar">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Randomizer</a>
-    </div>
+	<meta name="keywords" content="Randomizer, Videos, Memes, Facts, Websites">
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#" id>Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">About</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Import</a></li>
-            <li><a href="#">Export</a></li>
-            <li><a href="#">Metal Analysis</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Partners</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Reviews</a></li>
-          </ul>
-        </li>
-      </ul>
-      <!-- <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form> -->
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Whatsapp: +919312645200</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us! <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Mobile:+919310045205</a></li>
-            <li><a href="#">Tel: 011-47292200/011-27419993</a></li>
-            <li><a href="#">sureshman_1999@yahoo.com</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Feedback!</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-   <div class="jumbotron">
-  <h2>Randomizer Inc.</h2>
-  <p><button id ="button">Randomize.it!</button></a></p>
+	<meta name="author" content="GitBit">
 
-</div>
- 
-<div class="neighborhood-guides">
-<div class="container">
-<h2> Categories </h2>
-<p>Only thing contant in this world is the fact that it is truly Random!</p>
-<div class="row">
-        <div class="col-md-4">
-           <div class="thumbnail">
-              <a href="#"><img src="images/videos.png"></a>
-           </div>
-           <div class="thumbnail">
-              <img src="images/facts.jpg">
-           </div>
-        </div> 
-        <div class="col-md-4">
-        <div class="thumbnail">
-              <img src="images/MEME.jpg">
-           </div>
-           <div class="thumbnail">
-              <img src="images/web.jpg">
-           </div>
-        </div>
-        <div class="col-md-4">
-        <div class="thumbnail">
-              <img src="images/videos.jpg">
-           </div>
-        </div>
-</div>
-</div>
-</div>
-    <div class="learn-more">
-	  <div class="container">
-	  
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Travel</h3>
-			<p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
-			<p><a href="#">See how to travel on Airbnb</a></p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Host</h3>
-			<p>Renting out your unused space could pay your bills or fund your next vacation.</p>
-			<p><a href="#">Learn more about hosting</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Trust and Safety</h3>
-			<p>From Verified ID to our worldwide customer support team, we've got your back.</p>
-			<p><a href="#">Learn about trust at Airbnb</a></p>
-		  </div>
-	    </div>
-	  </div>
-	</div>
- 
-  </body>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<link rel="icon" 
+      type="image/png" 
+      href="http://example.com/myicon.png">
+	<!-- Bootstrap  -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- icon fonts font Awesome -->
+	<link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
+		
+	<!-- Custom Styles -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+	<!-- Responsive Styles -->
+	<link href="assets/css/responsive.css" rel="stylesheet">
+	
+	<!-- Normalize Styles -->
+	<link href="assets/css/normalize.css" rel="stylesheet">
+
+
+	<!-- Extras -->
+	<link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
+
+	
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+	<body>
+		<!-- Start Header Section -->
+		<header id="header">
+			<nav class="main-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<i class="fa fa-bars fa-lg"></i>
+						</button>
+						<!-- logo here -->
+						<a href="index.html" class="navbar-brand">Randomizer</a>
+					</div>
+					
+					<!-- Start Navigation Menu -->
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right" id="main_navigation_menu">
+							<li class="active"><a href="#header">Home</a></li>
+							<li><a href="#services">Services</a></li>									
+							<li><a href="#team">Team</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+					<!-- End Navigation Menu -->
+				</div>
+			</nav>
+		</header>
+		<!-- End Header Section -->
+		
+		<!-- Start Intro Section -->
+		<section id="intro" class="section-intro">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="main-text">
+							<h1 class="wow fadeInUp"><span>Randomizer</span> - Get rid of Boredom</h1>
+							<h2 class="wow fadeInUp" data-wow-delay=".7s">Only thing constant in this world is the fact that it is truly Random!</h2>
+							<p >Our Motive is to enhance productivity.You'll never get bored again. Check out random things & your curiosity shall rise!</p>
+							<div class="wow fadeInUp" data-wow-delay="1.5s"><a onclick="smoothScr.anim('services')" class="btn btn-border btn-lg"><i class="fa fa-spinner fa-spin"></i> Explore</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Intro Section -->
+
+		<!-- Start Services Section -->
+		<section id="services">
+			<div class="container">
+				<h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Our</span> Services</h1>
+				<div class="row">
+					<div class="col-sm-6 col-md-3 wow fadeInUp">
+						<div class="service-box">
+							<div class="content">
+								<div class="icon-wrapper">
+								<i class="fa fa-leaf"></i>
+								</div>
+								<a href = "C:\Users\Ayush\Documents\GitHub\Randomizer\index4.php"><h2>Random Memes</h2></a>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay=".2s" data-wow-offset="10">
+						<div class="service-box">
+							<div class="content">
+								<div class="icon-wrapper">
+								<i class="fa fa-heart"></i>
+								</div>
+								<a href ="C:\Users\Ayush\Documents\GitHub\Randomizer\index.php"><h2>Random Videos</h2></a>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay=".4s" data-wow-offset="10">
+						<div class="service-box">
+							<div class="content">
+								<div class="icon-wrapper">
+								<i class="fa fa-child"></i>
+								</div>
+								<a href ="C:\Users\Ayush\Documents\GitHub\Randomizer\index3.php"><h2>Random Facts</h2></a>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay=".6s" data-wow-offset="10">
+						<div class="service-box">
+							<div class="content">
+								<div class="icon-wrapper">
+								<i class="fa fa-mobile-phone"></i>
+								</div>
+								<a href = " C:\Users\Ayush\Documents\GitHub\Randomizer\index2.php"><h2>Random Websites</h2></a>
+								<p></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Services Section-->
+		
+		
+		<!-- Start Team Section -->
+		<section id="team">
+			<div class="container">
+				<h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Our</span> Team</h1>
+				<div class="row">
+
+					<div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.2s">
+						<div class="item-square">
+							<div class="face">
+								<img src="assets/img/team-member/team_01.jpg" alt="">
+								<div class="overlay"></div>
+							</div>
+							<div class="content">
+								<div class="title">
+									<h3>Lakshya Agrawal</h3>
+									<p>Backend Developer</p>
+								</div>
+								<div class="text">
+									<p>Begineer.Curious.</p>
+								</div>
+								<div class="social-icons">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.4s">
+						<div class="item-square">
+							<div class="face">
+								<img src="assets/img/team-member/team_02.jpg" alt="">
+								<div class="overlay"></div>
+							</div>
+							<div class="content">
+								<div class="title">
+									<h3>Ayush Mandowara</h3>
+									<p>Frontend Developer</p>
+								</div>
+								<div class="text">
+									<p>Self Motivated Learner.</p>
+								</div>
+								<div class="social-icons">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.6s">
+						<div class="item-square">
+							<div class="face">
+								<img src="assets/img/team-member/team_03.jpg" alt="">
+								<div class="overlay"></div>
+							</div>
+							<div class="content active">
+								<div class="title">
+									<h3>Amrit <br>Singh</h3>
+									<p>Frontend Developer</p>
+								</div>
+								<div class="text">
+									<p>Jack Of All Trades.</p>
+								</div>
+								<div class="social-icons">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.8s">
+						<div class="item-square">
+							<div class="face">
+								<img src="assets/img/team-member/team_04.jpg" alt="">
+								<div class="overlay"></div>
+							</div>
+							<div class="content">
+								<div class="title">
+									<h3>M. Vignesh</h3>
+									<p>Python Developer</p>
+								</div>
+								<div class="text">
+									<p>Young Padawan</p>
+								</div>
+								<div class="social-icons">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Team Section -->
+		
+	
+		<!-- Start Contact Section -->
+		<section id="contact">
+			<div class="overlay">
+				<div class="container">
+				<h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Contact</span> Us</h1>
+					<div class="row">
+						<div class="contact-form">
+							<form role="form" method="post">
+								<div class="col-sm-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+										<div class="controls">
+											<input class="contact_input" type="text" name="name" placeholder="Name">
+											<i class="fa fa-user"></i>
+										</div>
+										<div class="controls">
+											<input class="contact_input" type="text" name="Email" placeholder="Email">
+											<i class="fa fa-envelope-o"></i>
+										</div>
+										<div class="controls">
+											<input class="contact_input" type="text" name="Phone" placeholder="Phone">
+											<i class="fa fa-phone"></i>
+										</div>
+								</div>
+								<div class="col-sm-6 col-md-6 wow fadeInRight" data-wow-delay="0.2s">
+										<textarea name="massage" rows="7" class="form-control" placeholder="Massage"></textarea>
+								</div>
+								<div class="col-sm-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+									<button type="submit" id="submit" class="btn btn-common">Send</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<!-- End Contact Section -->
+		
+		<!-- Start Connected Section -->
+		<section id="connected">
+			<div class="container">
+				<div class="row">
+					<h2 class="section-title wow fadeInUp" data-wow-delay=".2s">Stay Connected</h2>		
+					<h3 class="discription wow fadeIn" data-wow-delay=".2s">We would love to hear your feedback.</h3>
+					<hr>
+					<div class="connected-wrapper text-center">
+						<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="contact-item">
+								<a href="#"><i class="fa fa-phone"></i></a>
+								<h5>Customer Care</h5>
+								<h4>+91 9582929870</h4>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="contact-item">
+								<a href="#"><i class="fa fa-user"></i></a>
+								<h5>Support Team</h5>
+								<h4>ayushxx7@gmail.com</h4>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="contact-item">
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<h5>Twitter</h5>
+								<h4>@GitBit</h4>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="contact-item">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<h5>Facebook</h5>
+								<h4>www.facebook.com/GitBit</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Connected Section -->
+
+		<!-- Footer Section Start -->
+		<footer id="footer">
+			<div class="container">
+					<div class="copyright text-center">
+						<p>Designed and Developed by <a href="http://graygrids.com">GitBit</a></p>
+					</div>
+			</div>
+		</footer>
+		<!-- Footer Section End -->
+
+		<!-- Scroll Top -->
+		<div class="scroll-top" data-spy="affix" data-offset-top="300">
+			<a href="#header"><i class="fa fa-angle-up"></i></a>
+		</div>
+		<!-- Scroll End -->
+
+		
+		<!-- Include jquery.min.js plugin -->
+		<script src="assets/js/jquery-min.js"></script>
+		<!-- Include Bootstrap plugin -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- One page Nav plugin -->		
+		<script src="assets/js/jquery.nav.js"></script>
+		<!-- Include Bootstrap plugin -->
+		<script src="assets/js/owl.carousel.js"></script>
+		<!-- Include wow plugin -->
+		<script src="assets/js/wow.js"></script>
+		<!-- Include mixitup plugin -->
+		<script src="assets/js/jquery.mixitup.js"></script>
+		<!-- ScrollTop -->
+		<script src="assets/js/lightbox.min.js"></script>
+		<!-- Lightbox -->
+		<script src="assets/js/scroll-top.js"></script>
+		<!-- Smooth Scroll -->
+		<script src="assets/js/smooth-scroll.js"></script>
+		<!-- preset js -->
+		<script src="assets/js/style.changer.js"></script>
+		<!-- Modernizr js -->
+		<script src="assets/js/modernizr-2.8.0.main.js"></script>
+		<!-- Main js -->
+		<script src="assets/js/main.js"></script>
+			
+	</body>
 </html>
